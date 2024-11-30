@@ -76,14 +76,14 @@ LOGGER = logging.getLogger("SYSTEM")
 if os.path.exists("Config.env"):
     load_dotenv("Config.env")
 
-API_ID = int(getenv("API_ID", 0))
-API_HASH = getenv("API_HASH", None)
-BOT_TOKEN = getenv("BOT_TOKEN", None)
+API_ID = int(getenv("API_ID", "19315294"))
+API_HASH = getenv("API_HASH", "e7b36a1bac601bcf98d8e3eece4b84e3")
+BOT_TOKEN = getenv("BOT_TOKEN", "6610341803:AAGv3YMEEqoZoHs-eRHgRVJ1RQQF4dDR9Jo")
 STRING_SESSION = getenv("STRING_SESSION", None)
 MONGO_DB_URL = getenv("MONGO_DB_URL", None)
-OWNER_ID = int(getenv("OWNER_ID", 0))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 0))
-START_IMAGE_URL = getenv("START_IMAGE_URL", None)
+OWNER_ID = int(getenv("OWNER_ID", "6458155947"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001764614031"))
+START_IMAGE_URL = getenv("START_IMAGE_URL", "https://envs.sh/LW8.jpg")
 
 
 # Memory Database
